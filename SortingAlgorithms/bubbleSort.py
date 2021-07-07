@@ -18,6 +18,7 @@
 # Time Complexity: O(n^2)
 
 # ------------------------------------------------- CODE -------------------------------------------------
+import random
 
 def bubbleSort(sortingList):
 
@@ -28,5 +29,5 @@ def bubbleSort(sortingList):
 
     return sortingList
 
-sortList = [2, 5, 1, 6, 3, 7]
+sortList = random.sample(range(1, 11111), 9999)
 print(bubbleSort(sortList))

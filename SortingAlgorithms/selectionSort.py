@@ -20,6 +20,7 @@
 # Time Complexity: O(n^2)
 
 # ------------------------------------------------- CODE -------------------------------------------------
+import random
 
 def selectionSort(sortingList):
 
@@ -38,5 +39,5 @@ def selectionSort(sortingList):
 
     return sortedList
 
-sortList = [2, 5, 1, 6, 3, 7]
+sortList = random.sample(range(11, 11111), 9999)
 print(selectionSort(sortList))

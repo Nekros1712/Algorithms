@@ -19,6 +19,7 @@
 # Time Complexity: O(n.logn)
 
 # ------------------------------------------------- CODE -------------------------------------------------
+import random
 
 def mergeSort(sortingList):
     if len(sortingList) <= 1:
@@ -51,5 +52,5 @@ def merge(leftList, rightList):
 
     return mergedList
 
-sortList = [2, 5, 1, 6, 3, 7]
+sortList = random.sample(range(11, 11111), 9999)
 print(mergeSort(sortList))
